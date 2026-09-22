@@ -1,0 +1,38 @@
+@media(max-width:1024px){.nav-toggle{display:block}
+.main-nav{position:fixed;top:82px;left:20px;right:20px;display:grid;gap:20px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:var(--shadow);opacity:0;transform:translateY(-10px);pointer-events:none}
+.main-nav.open{opacity:1;transform:none;pointer-events:auto}
+.main-nav ul{display:grid;gap:6px}
+.nav-link{display:block;padding:9px 4px}
+.nav-actions{border-top:1px solid var(--line);padding-top:16px}
+.hero-grid,.feature-grid,.split,.contact-grid{grid-template-columns:1fr;gap:42px}
+.hero{min-height:auto}
+.hero-copy{max-width:760px}
+.hero-visual{max-width:760px}
+
+.cards-3,.product-grid,.blog-grid,.pricing-preview{grid-template-columns:repeat(2,1fr)}
+
+.portfolio-grid{grid-template-columns:repeat(2,1fr)}
+.footer-grid{grid-template-columns:repeat(2,1fr)}
+.detail-layout,.article-layout{grid-template-columns:1fr}
+.sticky-card{position:static}
+.price-card.featured{transform:none}}@media(max-width:720px){.container-custom{width:min(calc(100% - 28px),var(--container))}.section{padding:78px 0}
+.page-hero{padding:135px 0 70px}
+.hero{padding-top:125px}
+.hero-actions,.nav-actions{flex-direction:column}
+.nav-actions .btn{width:100%}
+.logo-row{grid-template-columns:repeat(3,1fr)}.cards-3,
+.product-grid,.blog-grid,.pricing-preview,.portfolio-grid,.large-grid,.metric-grid,.field-row{grid-template-columns:1fr}
+.section-head,.cta-box,.footer-bottom{align-items:flex-start;flex-direction:column}
+.portfolio-card{min-height:330px}
+.footer-grid{grid-template-columns:1fr}
+.footer-bottom{display:flex}
+.footer-bottom div{flex-wrap:wrap}
+.fc-one{left:10px;bottom:20px}
+.fc-two{right:10px;top:20px}
+.floating-card{transform:scale(.9)}
+.auth-card{padding:24px}
+.form-between{align-items:flex-start;flex-direction:column}
+.testimonial-card{padding:28px}
+.testimonial-card p{font-size:1.05rem}
+.testimonial-slider{min-height:320px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+.reveal{opacity:1;transform:none}}
